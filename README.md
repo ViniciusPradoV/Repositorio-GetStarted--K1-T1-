@@ -2,31 +2,31 @@
 ## SETUP
 >Configuring user information used across all local repositories
 
--git config --global user.name “[firstname lastname]”
+- git config --global user.name “[firstname lastname]”
 set a name that is identifiable for credit when review version history
--git config --global user.email “[valid-email]”
+- git config --global user.email “[valid-email]”
 set an email address that will be associated with each history marker
--git config --global color.ui auto
+- git config --global color.ui auto
 set automatic command line coloring for Git for easy reviewing
 
 ## SETUP & INIT
 >Configuring user information, initializing and cloning repositories
 
--git init
+- git init
 initialize an existing directory as a Git repository
--git clone [url]
+- git clone [url]
 retrieve an entire repository from a hosted location via URL
 
 ## BRANCH & MERGE
 >Isolating work in branches, changing context, and integrating changes
 
--git branch
+- git branch
 list your branches. a * will appear next to the currently active branch
--git branch [branch-name]
+- git branch [branch-name]
 create a new branch at the current commit
--git checkout
+- git checkout
 switch to another branch and check it out into your working directory
--git merge [branch]
+- git merge [branch]
 merge the specified branch’s history into the current one
--git log
+- git log
 show all commits in the current branch’s history
